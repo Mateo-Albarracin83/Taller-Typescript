@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Series</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8">
+        <h2 class="bg-info text-white p-2">TV Series</h2>
+        <table class="table table-striped" id="series-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Channel</th>
+              <th>Seasons</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Series rows will be injected here -->
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-4">
+        <div id="serie-detail"></div>
+      </div>
+    </div>
+  </div>
+  <script src="./dist/data.js"></script>
+  <script src="./dist/main.js"></script>
+</body>
+</html>
